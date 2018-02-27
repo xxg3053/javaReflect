@@ -11,6 +11,7 @@ public class ClassDemo3 {
 
     public static void main(String[] args) {
         String s = "Hello";
-        ClassUtil.pringClassMessage(s);
+        //ClassUtil.pringClassMethodMessage(s);
+        ClassUtil.printConMessage(s);
     }
 }
